@@ -1,2 +1,4 @@
-# Learning-JavaScript-Udemy-Course-
-Learning JavaScript Course From Udemy
+# Learn-JavaScript
+
+Learning JavaScript Course From Udemy Course
+
