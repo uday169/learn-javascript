@@ -1,16 +1,17 @@
 /** Callenge 2  */
 
-numberOfGames = 3;
-
+var numberOfGames = 3;
 // Johan team as team1 and mike team as team2
-team1AvgScore = (89 + 120 + 103)/numberOfGames ;
+// 1.
+var team1AvgScore = (89 + 120 + 103)/numberOfGames ;
 
 console.log('The average score of John\'s team is ' +team1AvgScore );
-
-team2AvgScore = (116 +94 + 123)/numberOfGames;
+// 2.
+var team2AvgScore = (116 +94 + 123)/numberOfGames;
 
 console.log('The average score of Mike\'s team is ' +team2AvgScore );
 
+// 3.
 if(team1AvgScore > team2AvgScore){
     console.log('John\'s team is winner');
 }
@@ -24,8 +25,8 @@ else{
 }
 
 // Extra --Mary team as team3
-
-team3AvgScore = (97 + 134 + 105 )/numberOfGames;
+//4.
+var team3AvgScore = (97 + 134 + 105 )/numberOfGames;
 console.log('The average score of Mary\'s team is ' +team3AvgScore );
 
 if(team1AvgScore > team2AvgScore && team1AvgScore > team3AvgScore){
