@@ -1,3 +1,7 @@
+/*
+Ternary operator
+*/
+
 var firstName = 'uday';
 var age = 22;
 
