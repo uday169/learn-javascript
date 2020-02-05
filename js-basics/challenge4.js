@@ -31,15 +31,15 @@ console.log(john);
  function bmiCompare() {
         if (john.bmi > mark.bmi) {
             
-            return 'John\'s bmi is highest , which is ' +john.bmi;
+            return john.name+ ' bmi is highest , which is ' +john.bmi;
 
         }else if (john.bmi < mark.bmi) {
 
-            return 'Mark\'s bmi is highest , which is ' +mark.bmi;
+            return  mark.name+ ' bmi is highest , which is ' +mark.bmi;
 
         } else {
-            
-            return 'John\'s bmi is equal to Mark\'s bmi.';
+
+            return john.name+ ' bmi is equal to',mark.name+ ' bmi.';
         }
     }
 
