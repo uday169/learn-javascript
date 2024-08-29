@@ -3,7 +3,6 @@
     "files.autoSave": "onFocusChange",
     "editor.minimap.enabled": true,
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
     "editor.formatOnSave": false,
   
     "workbench.colorCustomizations": {
